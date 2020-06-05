@@ -1,2 +1,3 @@
-# CurrencyConverter
-Simple vanilla js project, using the Exchange Rate API
+Currency Converter
+
+Simple vanilla js project, using the Exchange Rate API.
