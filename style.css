@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(#b62f7b, #4b3f6d);
+    font-size: 1.8rem;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    height: auto;
+    border-radius: 0.5rem;
+    padding: 4rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #46406c;
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+}
+
+.container form {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.arrow {
+    font-size: 3rem;
+}
+
+input {
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.options {
+    margin: 1.5rem;
+}
+
+select {
+    padding: 1.2rem;
+    background: #ddd;
+    appearance: none;
+    font-size: 1.8rem;
+}
+
+.result {
+    width: 50%;
+    padding: 1.5rem;
+    text-align: center;
+    background: #46406c;
+    color: white;
+}
+
+.to-amount {
+    font-size: 2rem;
+}
+
+.info {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1rem;
+    color: #46406c;
+}
