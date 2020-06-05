@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <p class="instructions">Set the amount and choose the currency to get the exchange rate.</p>
+
+        <form>
+            <input type="number" name="from-amount" placeholder="Enter amount here">
+
+            <div class="options">
+                <select name="from-currency">
+                    <option>Select a Currency</option>
+                </select>
+                <span class="arrow">&rarr;</span>
+                <select name="to-currency">
+                    <option>Select a Currency</option>
+                </select>
+            </div>
+
+            <div class="result">
+                <p class="to-amount">0</p>
+            </div>
+        </form>
+
+        <p class="info" id="info">1&euro; is ...</p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
